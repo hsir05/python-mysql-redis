@@ -1,5 +1,4 @@
 import datetime
-# import aioredis
 
 from peewee import CharField, IntegerField, DateTimeField, SqliteDatabase, TextField, Model, MySQLDatabase
 from playhouse.shortcuts import dict_to_model, model_to_dict

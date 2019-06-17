@@ -26,9 +26,6 @@ class LoginView(HTTPMethodView):
 
             result = Roles.get_user_info(username, password)
             token = generate_token(key, 3600)
-            # r = await redis.get_redis_pool()
-            # await r.set('token', token)
-            # t = await r.get('token')
             await set_value('token', token)
 
             t = await get_value('token')

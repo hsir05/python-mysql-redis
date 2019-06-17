@@ -1,5 +1,4 @@
 import aioredis
-import asyncio
 
 
 class Redis:
