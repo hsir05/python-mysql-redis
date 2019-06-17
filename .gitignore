@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# boyleGu env
+py3_6env
+activate
+.idea
+
+# sanic log
+access.log
+error.log
+
+# frontend
+node_modules
+dist
+
+# unit test
+.cache
+
+# design logo
+*.lpop
+未命名
+*.png
